@@ -15,13 +15,23 @@ function Navigation(){
               <a className="nav-link" href="/login/">Login</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/alldata/">AllData</a>
-            </li>     
-            <li className="nav-item">
               <a className="nav-link" href="/food/">Food</a>
             </li>   
             <li className="nav-item">
-              <a className="nav-link" href="/signin/">SignIn</a>
+              <a className="nav-link" href="/Sleep/">Sleep</a>
+            </li>   
+            <li className="nav-item">
+              <a className="nav-link" href="/Stress/">Stress</a>
+            </li>   
+            <li className="nav-item">
+              <a className="nav-link" href="/Symptoms/">Symptoms</a>
+            </li>   
+            <li className="nav-item">
+              <a className="nav-link" href="/alldata/">AllData</a>
+            </li>     
+ 
+              <li className="nav-item">
+              <a className="nav-link" href="/dashboard/">Dashboard</a>
               </li>  
           </ul>
         </div>

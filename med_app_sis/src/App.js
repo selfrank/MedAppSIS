@@ -4,8 +4,13 @@ import {BrowserRouter, Routes, Route, withRouter} from "react-router-dom";
 import Navigation from "./pages/navigation";
 import Home from "./pages/home";
 import Food from "./pages/food";
-import SignIn from "./pages/signin";
 import CreateAccount from './pages/createaccount';
+import Login from './pages/login';
+import Dashboard from './pages/dashboard';
+import Symptoms from './pages/symptoms';
+import Sleep from './pages/sleep';
+import Stress from './pages/stress';
+
 export const UserContext = React.createContext(null);
 
 
@@ -18,9 +23,12 @@ function App() {
         <Routes>
           <Route exact path="/"  element = {<Home/>}/>
           <Route path = "food" exact element = {<Food/>} />
-          <Route path = '/signin/' exact element={<SignIn/>} />
+          <Route path='/sleep/' exact element = {<Sleep/>}/>
+          <Route path='/stress/' exact element = {<Stress/>}/>
+          <Route path='/symptoms/' exact element = {<Symptoms/>}/>
           <Route path = '/CreateAccount' exact element={<CreateAccount/>}/>
-          
+          <Route path = '/login' exact element={<Login/>}/>
+          <Route path = '/dashboard' exact element={<Dashboard/>}/>
         </Routes>
         </div>
         </UserContext.Provider>
